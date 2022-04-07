@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>アンケート</title>
+</head>
+
+<body>
+    <h3>アンケート</h3>
+    <p>研修をご利用いただき、誠にありがとうございます。</p>
+    <p>以下の内容の記入及び送信をしていただけると幸いです。</p>
+
+    <br>会社名</br><input type="text" name="kaisya"required>
+    <br>お名前</br><input type="text" name="name"recired>
+    <br>メールアドレス</br><input type="text" name="mail">
+    <br>年齢</br><input type="number" name="nenrei">
+    <br>受講コース</br>
+    <input type="radio" name="sei" value="male" checked>Java
+    <input type="radio" name="sei" value="female">インフラ
+
+    <br>会場</br>
+    <select name="nendai">
+        <option value="10s" selected >日本橋A教室</option>
+        <option value="20s">日本橋B教室</option>
+        <option value="30s">日本橋C教室</option>
+    </select>
+
+    <br>詳しく学びたい内容(複数回答可)</br>
+    <label class="waku">
+        <p><input type="checkbox" name="recipe">ビジネスマナー</p>
+    </label>
+    <label class="waku">
+        <p><input type="checkbox" name="recipe">HTML/CSS</p>
+    </label>
+    <label class="waku">
+        <p><input type="checkbox" name="recipe">JavaScript</p>
+    </label>
+    <label class="waku">
+        <p><input type="checkbox" name="recipe">Java</p>
+    </label>
+    <label class="waku">
+        <p><input type="checkbox" name="recipe">データベース</p>
+    </label>
+    <label class="waku">
+        <p><input type="checkbox" name="recipe">Linux</p>
+    </label>
+    <br>ご意見</br>
+    <textarea name="message" rows="3" cols="40" placeholder="ご自由にご記入ください。"></textarea>
+    <br><button type="submit">送信</button></br>
+
+
+
+
+
+
+</body>
+</html>

@@ -1,0 +1,50 @@
+body{
+  background:url(bg_Argyle.jpg);
+}
+
+.center {
+  text-align:center;
+}
+
+.curry{
+  padding: 2px;
+  border: 2px solid red;
+}
+
+table{
+  border-color: #ff0000;
+  background-color: rgb(255, 242, 223);
+}
+
+h1{
+  text-align: center;
+}
+
+.wrap.pattern-2{
+  text-align:center;
+  height:60px;
+  line-height:60px;
+}
+
+.kakomi {
+  text-align: center;
+  margin: 2em auto;
+  padding: 1em;
+  width: 700px;
+  line-height: 40px; /* 行の高さを指定する */
+  border: 1px solid #d57ee6; /*線の太さ・色*/
+  background-color: #fff; /*背景色*/
+  box-shadow: 1px 2px 5px #b4b4b4; /*影*/
+  border-radius: 15px; /*角の丸み*/
+ }
+
+ .waku{
+  padding: 2px;
+  margin: 2px;
+  border: 1px solid #000000;
+  border-radius: 5px;
+ }
+
+.yohaku{
+  margin: 6px;
+}
